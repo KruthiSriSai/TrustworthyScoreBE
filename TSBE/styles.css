@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #395add;
+  }
+  
+  button {
+    font-size: 16px;
+    background-color: #3244eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2b57d8;
+  }
+  
+  /* Status styling */
+  #status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Safe status */
+  .safe {
+    color: #5add6b; /* Green for safe */
+  }
+  
+  /* Unsafe status */
+  .unsafe {
+    color: #f44336; /* Red for unsafe */
+  }
+  
+  /* Details section styling */
+  #details {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Score Button styling */
+  #score-btn {
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Green button for 100 score */
+  #score-btn.green {
+    background-color: #5add6b; /* Green */
+  }
+  
+  /* Yellow button for 75+ score */
+  #score-btn.yellow {
+    background-color: #ffeb3b; /* Yellow */
+  }
+  
+  /* Red button for 50+ score */
+  #score-btn.red {
+    background-color: #f44336; /* Red */
+  }
